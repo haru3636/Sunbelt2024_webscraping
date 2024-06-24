@@ -4,14 +4,14 @@ output:
   html_document:
     toc: false
     number_sections: false
-author: "by: Your Name"
+author: "by: Natascha Zinn"
 bibliography: references.bib
 
 ---
 
 
 ```{r, install remotely, globalsettings, echo=FALSE, warning=FALSE, results='hide'}
-# install.packages("remotes")
+#install.packages("remotes")
 #remotes::install_github("rlesur/klippy")
 ``` 
 
@@ -29,10 +29,6 @@ colorize <- function(x, color) {sprintf("<span style='color: %s;'>%s</span>", co
 
 ```
 
-```{r klippy, echo=FALSE, include=TRUE}
-klippy::klippy(position = c('top', 'right'))
-#klippy::klippy(color = 'darkred')
-#klippy::klippy(tooltip_message = 'Click to copy', tooltip_success = 'Done')
 ```
 
 
